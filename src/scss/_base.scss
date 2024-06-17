@@ -28,6 +28,21 @@ body {
   line-height: 1.25;
 }
 
+header,
+main {
+  background-color: #0a0a0a;
+}
+
+footer {
+  background-color: #f1e60d;
+}
+
+h2,
+h3,
+p {
+  color: #ffffff;
+}
+
 a {
   color: inherit;
 }
@@ -37,6 +52,29 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: middle;
+}
+
+nav {
+  background-color: #f1e60d;
+}
+
+a nav {
+  font-size: 32px;
+}
+
+.titleblue {
+  color: #68c6e0;
+  font-size: 94px;
+}
+
+.titlered {
+  color: #e52421;
+  font-size: 94px;
+}
+
+.titlered {
+  color: #66b32e;
+  font-size: 94px;
 }
 
 /* ====================================

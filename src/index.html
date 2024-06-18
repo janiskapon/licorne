@@ -5,18 +5,21 @@
     <title>LICORNE</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="scss/main.scss" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Saira+Condensed:wght@700&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
       <img src="/src/img/pictopanier.svg" alt="picto panier" />
       <img src="/src/img/pictologin.svg" alt="picto login" />
-      <img src="/src/img/logoheader.svg" alt="Logo Licorne" />
+      <img class="images-logoheader" src="/src/img/logoheader.svg" alt="Logo Licorne" />
       <div class="container">
         <div class="row">
-          <div class="col-8"><h2>100% de saveurs, 0% d'alcool</h2></div>
+          <div class="col-8 slogan-header"><h2>100% de saveurs, 0% d'alcool</h2></div>
         </div>
       </div>
-      <nav>
+      <nav class="navigation">
         <a href="#beer">nos bières</a>
         <a href="#history">notre histoire</a>
         <a href="#shop">shop</a>
@@ -26,48 +29,47 @@
     </header>
     <main>
       <div class="picto">
-        <img src="/src/img/pictobio.svg" alt="picto bio" />
-        <img src="/src/img/pictotono.svg" alt="picto biere" />
-        <img src="/src/img/pictobottles.svg" alt="picto deux bouteilles" />
+        <img class="images-pictobio" src="/src/img/pictobio.svg" alt="picto bio" />
+        <img class="images-pictobiere" src="/src/img/pictotono.svg" alt="picto biere" />
+        <img class="images-pictobottles" src="/src/img/pictobottles.svg" alt="picto deux bouteilles" />
         <p>bio</p>
         <p>fabrication artisanale</p>
         <p>0% vol</p>
       </div>
         <h3>nos bières</h3>
           <div class="nosbieres">
-            <div class="yellowrectangle">
-              <h1 class="titleblue">blonde</h1>
+            <div class="col-12 rectangle-yellow">
+              <h1 class="title-blue">blonde</h1>
               <h4>Bouteille en verre de 33cl.</h4>
               <p>Cette bière blonde lumineuse et rafraîchissante est parfaite pour celles et ceux qui cherchent un plaisir authentique 
                 sans les effets de l'alcool. Un voyage sensoriel doux et harmonieux, à savourer à tout moment.</p>
                 <p>Ingrédients : Eau, malt d'orge colorant : E150c arôme naturel, houblon.</p>
                 <br />
                 <p>Allergènes : Gluten</p>
-                <a class="#buy">commander en ligne</a>
+                <button class="button-buy">commander en ligne</button>
             </div>
           </div>
           <div class="nosbieres">
-            <div class="yellowrectangle">
-              <h1 class="titlered">brune</h1>
+            <div class="rectangle-yellow">
+              <h1 class="title-red">brune</h1>
               <h4>Bouteille en verre de 33cl.</h4>
-              <p>Cette bière blonde lumineuse et rafraîchissante est parfaite pour celles et ceux qui cherchent un plaisir authentique 
-                sans les effets de l'alcool. Un voyage sensoriel doux et harmonieux, à savourer à tout moment.</p>
-                <p>Ingrédients : Eau, malt d'orge colorant : E150c arôme naturel, houblon.</p>
+              <p>Cette bière brune sans alcool est élaborée avec du malt torréfié d'orge et de blé, qui lui confère une richesse aromatique 
+                exceptionnelle offrant une expérience gustative équilibrée et satisfaisante.</p>
+                <p>Ingrédients : Eau, malt torréfié d'orge, malt torréfié de blé, houblon.</p>
                 <br />
                 <p>Allergènes : Gluten</p>
-                <a class="#buy">commander en ligne</a>
+                <a class="button-buy">commander en ligne</a>
             </div>
           </div>
           <div class="nosbieres">
-            <div class="yellowrectangle">
-              <h1 class="titlegreen">ipa sans gluten</h1>
+            <div class="rectangle-yellow">
+              <h1 class="title-green">ipa sans gluten</h1>
               <h4>Bouteille en verre de 33cl.</h4>
               <p>Cette bière blonde lumineuse et rafraîchissante est parfaite pour celles et ceux qui cherchent un plaisir authentique 
                 sans les effets de l'alcool. Un voyage sensoriel doux et harmonieux, à savourer à tout moment.</p>
-                <p>Ingrédients : Eau, malt d'orge colorant : E150c arôme naturel, houblon.</p>
+                <p>Ingrédients : Houblon agrume, eau, coriandre, malt de seigle.</p>
                 <br />
-                <p>Allergènes : Gluten</p>
-                <a class="#buy">commander en ligne</a>
+                <a class="button-buy">commander en ligne</a>
             </div>
           </div>
         <div class="histoire"></div>
@@ -83,6 +85,10 @@
         <h2>contact</h2>
       </div>
     </main>
+    <a href="https://www.instagram.com/brasserie__licorne/" target="_blank">
+      <img class="socials"
+      src="./img/buttoninsta.svg"
+      alt="logo instagram"/></a>
     <footer>hello hello</footer>
     <script src="js/main.js" type="module"></script>
   </body>

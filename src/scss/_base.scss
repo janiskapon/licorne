@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "raisinmuffin";
+  src: url("../fonts/raisinmuffin.woff2") format("woff2");
+}
+
 /* ====================================
 // css variables
 // ==================================== */
@@ -26,6 +31,7 @@ body {
 
   font-size: 1rem;
   line-height: 1.25;
+  font-family: "Saira condensed";
 }
 
 header,
@@ -56,25 +62,12 @@ video {
 
 nav {
   background-color: #f1e60d;
+  justify-content: space-around;
 }
 
 a nav {
   font-size: 32px;
-}
-
-.titleblue {
-  color: #68c6e0;
-  font-size: 94px;
-}
-
-.titlered {
-  color: #e52421;
-  font-size: 94px;
-}
-
-.titlered {
-  color: #66b32e;
-  font-size: 94px;
+  justify-content: space-around;
 }
 
 /* ====================================

@@ -2,16 +2,36 @@
   width: 990px;
   height: 268px;
   flex-shrink: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.images-picto {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 100px;
+  margin: 0 -35 0 -35px;
 }
 
 .images-pictobio {
-  justify-content: center;
 }
 
 .images-pictobiere {
-  justify-content: center;
 }
 
 .images-pictobottles {
-  justify-content: center;
+}
+
+.images-histoire {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.images-logofooter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }

@@ -5,18 +5,25 @@
     <title>LICORNE</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="scss/main.scss" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Saira+Condensed:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Saira+Condensed:wght@700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <img src="/src/img/pictopanier.svg" alt="picto panier" />
       <img src="/src/img/pictologin.svg" alt="picto login" />
-      <img class="images-logoheader" src="/src/img/logoheader.svg" alt="Logo Licorne" />
-      <div class="container">
-        <div class="row">
-          <div class="col-8 slogan-header"><h2>100% de saveurs, 0% d'alcool</h2></div>
+      <img
+        class="images-logoheader"
+        src="/src/img/logoheader.svg"
+        alt="Logo Licorne"
+      />
+          <div class="slogan-header">
+            <h1>100% de saveurs, 0% d'alcool</h1>
+          </div>
         </div>
       </div>
       <nav class="navigation">
@@ -28,68 +35,136 @@
       </nav>
     </header>
     <main>
-      <div class="picto">
-        <img class="images-pictobio" src="/src/img/pictobio.svg" alt="picto bio" />
-        <img class="images-pictobiere" src="/src/img/pictotono.svg" alt="picto biere" />
-        <img class="images-pictobottles" src="/src/img/pictobottles.svg" alt="picto deux bouteilles" />
-        <p>bio</p>
-        <p>fabrication artisanale</p>
-        <p>0% vol</p>
+      <div class="container">
+      <div class="images-picto">
+        <img
+          class="images-pictobio"
+          src="/src/img/pictobio.svg"
+          alt="picto bio"
+        />
+        <img
+          class="images-pictobiere"
+          src="/src/img/pictotono.svg"
+          alt="picto biere"
+        />
+        <img
+          class="images-pictobottles"
+          src="/src/img/pictobottles.svg"
+          alt="picto deux bouteilles"
+        />
       </div>
-        <h3>nos bières</h3>
-          <div class="nosbieres">
-            <div class="col-12 rectangle-yellow">
-              <h1 class="title-blue">blonde</h1>
-              <h4>Bouteille en verre de 33cl.</h4>
-              <p>Cette bière blonde lumineuse et rafraîchissante est parfaite pour celles et ceux qui cherchent un plaisir authentique 
-                sans les effets de l'alcool. Un voyage sensoriel doux et harmonieux, à savourer à tout moment.</p>
-                <p>Ingrédients : Eau, malt d'orge colorant : E150c arôme naturel, houblon.</p>
-                <br />
-                <p>Allergènes : Gluten</p>
-                <button class="button-buy">commander en ligne</button>
-            </div>
-          </div>
-          <div class="nosbieres">
-            <div class="rectangle-yellow">
-              <h1 class="title-red">brune</h1>
-              <h4>Bouteille en verre de 33cl.</h4>
-              <p>Cette bière brune sans alcool est élaborée avec du malt torréfié d'orge et de blé, qui lui confère une richesse aromatique 
-                exceptionnelle offrant une expérience gustative équilibrée et satisfaisante.</p>
-                <p>Ingrédients : Eau, malt torréfié d'orge, malt torréfié de blé, houblon.</p>
-                <br />
-                <p>Allergènes : Gluten</p>
-                <a class="button-buy">commander en ligne</a>
-            </div>
-          </div>
-          <div class="nosbieres">
-            <div class="rectangle-yellow">
-              <h1 class="title-green">ipa sans gluten</h1>
-              <h4>Bouteille en verre de 33cl.</h4>
-              <p>Cette bière blonde lumineuse et rafraîchissante est parfaite pour celles et ceux qui cherchent un plaisir authentique 
-                sans les effets de l'alcool. Un voyage sensoriel doux et harmonieux, à savourer à tout moment.</p>
-                <p>Ingrédients : Houblon agrume, eau, coriandre, malt de seigle.</p>
-                <br />
-                <a class="button-buy">commander en ligne</a>
-            </div>
-          </div>
-        <div class="histoire"></div>
-        <h2>notre histoire</h2>
+    </div>
+    <div class="container">
+      <div class="text-picto">
+        <h5>bio</h5>
+        <h5>fabrication artisanale</h5>
+        <h5>0% vol</h5>
+      </div>
+    </div>
+      <h2 id="beer">nos bières</h2>
+      <div class="nosbieres">
+        <div class="col-12 rectangle-yellow">
+          <h1 class="title-blue">blonde</h1>
+          <h4>Bouteille en verre de 33cl.</h4>
+          <p>
+            Cette bière blonde lumineuse et rafraîchissante est parfaite pour
+            celles et ceux qui cherchent un plaisir authentique sans les effets
+            de l'alcool. Un voyage sensoriel doux et harmonieux, à savourer à
+            tout moment.
+          </p>
+          <p class="ingredients-blonde">
+            Ingrédients : Eau, malt d'orge colorant : E150c arôme naturel,
+            houblon.
+          </p>
+          <br />
+          <p>Allergènes : Gluten</p>
+          <br />
+          <button class="button-buy">commander en ligne</button>
+        </div>
+      </div>
+      <div class="nosbieres">
+        <div class="rectangle-yellow">
+          <h1 class="title-red">brune</h1>
+          <h4>Bouteille en verre de 33cl.</h4>
+          <p>
+            Cette bière brune sans alcool est élaborée avec du malt torréfié
+            d'orge et de blé, qui lui confère une richesse aromatique
+            exceptionnelle offrant une expérience gustative équilibrée et
+            satisfaisante.
+          </p>
+          <p class="ingredients-brune">
+            Ingrédients : Eau, malt torréfié d'orge, malt torréfié de blé,
+            houblon.
+          </p>
+          <br />
+          <p>Allergènes : Gluten</p>
+          <br />
+          <button class="button-buy">commander en ligne</button>
+        </div>
+      </div>
+      <div class="nosbieres">
+        <div class="rectangle-yellow">
+          <h1 class="title-green">ipa sans gluten</h1>
+          <h4>Bouteille en verre de 33cl.</h4>
+          <p>
+            Cette bière blonde lumineuse et rafraîchissante est parfaite pour
+            celles et ceux qui cherchent un plaisir authentique sans les effets
+            de l'alcool. Un voyage sensoriel doux et harmonieux, à savourer à
+            tout moment.
+          </p>
+          <p class="ingredients-ipa">Ingrédients : Houblon agrume, eau, coriandre, malt de seigle.</p>
+          <br />
+          <button class="button-buy">commander en ligne</button>
+        </div>
+      </div>
+      <div class="histoire-bio">
+      <h2 id="history">notre histoire</h2>
+      <img class="images-histoire"
+      src="/src/img/licorneyellowbackground.svg"
+      alt="image de fond texturé houblon"
+      />
+      <div class="col-10 text-histoire">
+          <p>Chaque bière Licorne est le fruit d'un savoir-faire artisanal, fusionnant tradition et innovation pour créer des saveurs authentiques et raffinées. En privilégiant des produits locaux certifiés bio, nous soutenons l'économie régionale Suisse tout en misant sur des techniques de brassage traditionnelles et des méthodes modernes.  Notre nouvelle brasserie créée par Sylvain Megroni se trouve à Estavayer-le-Lac dans une ancienne bâtisse médiévale.  Nous vous accueillons avec plaisir les samedis et dimanches pour des visites afin de vous transmettre notre amour pour la bière, vous partager le processus de fermentation et de mise en bouteille mais aussi pour découvrir ce magnifique lieu chargé d’histoire.
+          La visite sera suivie d’une dégustation de nos produits. Réservez une visite guidée par e-mail à l’adresse : <br><br> info@brasserielicorne.ch </p>
+        </div>
       </div>
       <div class="shop">
-        <h2>shop</h2>
+        <h2 id="shop">shop</h2>
+        <img class="images-bottleshop"
+        src="/src/img/blondeshop.svg"
+        alt="image shop bouteille blonde"
+        />
+        <img class="images-bottleshop"
+        src="/src/img/bruneshop.svg"
+        alt="image shop bouteille brune"
+        />
+        <img class="images-bottleshop"
+        src="/src/img/ipashop.svg"
+        alt="image shop bouteille ipa"
+        />
+        <button class="button-buytwo">commander en ligne</button>
       </div>
       <div class="pdv">
-        <h2>points de vente</h2>
-      </div>
+        <h2 id="pdvente">points de vente</h2>
+        <img class="partenaires"
+        src="/src/img/pointsdevente.svg"
+        alt="images des points de vente"
+        />
       <div class="contact">
         <h2>contact</h2>
       </div>
     </main>
     <a href="https://www.instagram.com/brasserie__licorne/" target="_blank">
-      <img class="socials"
-      src="./img/buttoninsta.svg"
-      alt="logo instagram"/></a>
-    <footer>hello hello</footer>
+      <img class="socials" src="./img/buttoninsta.svg" alt="logo instagram"
+    /></a>
+    <footer id="contact">
+    <div class="images-logofooter">
+      <img
+        class="images-logofooter"
+        src="/src/img/logofooter.svg"
+        alt="logo brasserie licorne"
+      />
+    </footer>
     <script src="js/main.js" type="module"></script>
   </body>
 </html>

@@ -45,8 +45,6 @@ footer {
 
 h1 {
   font-weight: normal;
-  margin-left: 70px;
-  margin-top: 20px;
 }
 
 h2,
@@ -67,7 +65,6 @@ h2 {
 h4 {
   color: #f1e60d;
   font-family: "comfortaa";
-  margin-left: 70px;
 }
 
 h5 {
@@ -106,6 +103,14 @@ nav {
   padding: 10 0 10 0px;
   text-align: center;
   text-transform: uppercase;
+}
+
+strong {
+  color: #f1e60d;
+}
+
+span {
+  font-size: 60px;
 }
 
 /* ====================================

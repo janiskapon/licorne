@@ -14,8 +14,20 @@
   </head>
   <body>
       <header>
-        <img src="/src/img/pictopanier.svg" alt="picto panier" />
-        <img src="/src/img/pictologin.svg" alt="picto login" />
+        <div class="button-header">
+          <img class="picto-panier" src="/src/img/pictopanier.svg" alt="picto panier" />
+          <img class="picto-login" src="/src/img/pictologin.svg" alt="picto login" />
+        </div>  
+          <div class="language-picker js-language-picker" data-trigger-class="li4-btn li4-btn--subtle js-tab-focus">
+            <form action="" class="language-picker__form">
+              <select name="language-picker-select" id="language-picker-select">
+                <option lang="de" value="deutsch">Deutsch</option>
+                <option lang="fr" value="english" selected>Français</option>
+                <option lang="en" value="francais">English</option>
+                <option lang="it" value="italiano">Italiano</option>
+              </select>
+            </form>
+          </div>
         <img
           class="images-logoheader"
           src="/src/img/logoheader.svg"
@@ -183,26 +195,44 @@
         src="/src/img/pointsdevente.svg"
         alt="images des points de vente"
         />
+      </div>
       <div class="contact">
-        <h2>contact</h2>
       </div>
       <div class="container">
         <div class="row">
-            <div class="col-4">
-        <a href="https://www.instagram.com/brasserie__licorne/" target="_blank">
-        <img class="socials-icons" src="./img/buttoninsta.svg" alt="logo instagram"
-        /></a>
-        <a href="https://www.instagram.com/brasserie__licorne/" target="_blank">
-          <img class="socials-icons" src="./img/buttontik.svg" alt="logo tiktok"
-          /></a>
-          
+          <div class="col-4">
+            <a href="https://www.instagram.com/brasserie__licorne/" target="_blank">
+            <img class="socials-icons" src="./img/buttoninsta.svg" alt="logo instagram"
+            /></a>
+            <a href="https://www.instagram.com/brasserie__licorne/" target="_blank">
+            <img class="socials-icons" src="./img/buttontik.svg" alt="logo tiktok"
+            /></a>
+          </div>
+          <div class="col-8">
+            <p class="text-newsletter">s'abonner à notre newsletter</p>
+          </div>
+        </div>
+      </div>
     </main>
     <footer id="contact">
+      <h2 class="text-contact" id="contact">contact</h2>
       <div class="container">
         <div class="row">
+          <div class="col-4">
+            <p class="text-pcontact">Brasserie Licorne<br>Sylvain Megroni<br>
+              Chemin du Lac 2<br>CH-1470 Estavayer-Le-Lac<br>+41 26 664 23 23
+            </p>
+            <a class="text-mail" href="mailto:info@brasserielicorne.ch">info@brasserielicorne.ch</a>
+            <p class="text-politiqueetcondition"><br><br>Politique de confidentialité<br><br>Conditions générales de vente</p>
+          </div>
           <div class="col-4"></div>
-          <div class="col-4"></div>
-          <div class="col-4"></div>
+          <div class="col-3">
+            <img class="images-mapsfooter"
+            src="/src/img/cartemaps.svg"
+            alt="image emplacement licorne maps"
+            />
+            <p class="text-googlemaps">Ouvrir dans Google Maps</p>
+          </div>
         </div>
       </div>
       <div class="images-logofooter">
@@ -211,6 +241,7 @@
         src="/src/img/logofooter.svg"
         alt="logo brasserie licorne"
       />
+      <p class="text-copyright">© 2024 Licorne. Tous droits réservés</p>
     </footer>
     <script src="js/main.js" type="module"></script>
   </body>

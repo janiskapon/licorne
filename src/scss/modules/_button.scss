@@ -15,6 +15,11 @@
   background-color: #f1e60d;
 }
 
+.button-buytwo:hover {
+  color: #0a0a0a;
+  background-color: #f1e60d;
+}
+
 .button-buytwo {
   color: #f1e60d;
   background-color: #0a0a0a;
@@ -29,10 +34,27 @@
   padding: 10px 20px;
   margin: 70px 0 30 0px;
   text-transform: uppercase;
+  transition: color, background-color 1s;
 }
 
 .button-flex {
   display: flex;
   justify-content: center;
   margin-bottom: 70px;
+}
+
+.button-newsletter {
+  color: #f1e60d;
+  font-family: "Saira condensed";
+  text-decoration: underline;
+  background: none;
+  border-style: none;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: right;
+}
+
+.button-header {
+  display: flex;
+  justify-content: center;
 }

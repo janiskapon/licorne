@@ -13,203 +13,304 @@
     />
   </head>
   <body>
-      <header>
-        <div class="button-header">
-          <img class="picto-panier" src="/src/img/pictopanier.svg" alt="picto panier" />
-          <img class="picto-login" src="/src/img/pictologin.svg" alt="picto login" />
-        </div>  
-          <div class="language-picker js-language-picker" data-trigger-class="li4-btn li4-btn--subtle js-tab-focus">
-            <form action="" class="language-picker__form">
-              <select name="language-picker-select" id="language-picker-select">
-                <option lang="de" value="deutsch">Deutsch</option>
-                <option lang="fr" value="english" selected>Français</option>
-                <option lang="en" value="francais">English</option>
-                <option lang="it" value="italiano">Italiano</option>
-              </select>
-            </form>
-          </div>
+    <header>
+      <div class="picto">
         <img
-          class="images-logoheader"
-          src="/src/img/logoheader.svg"
-          alt="Logo Licorne"
+          class="picto-panier"
+          src="/src/img/pictopanier.svg"
+          alt="picto panier"
         />
-            <div class="slogan-header">
-              <h1>100% de saveurs, 0% d'alcool</h1>
-            </div>
-        <nav class="navigation">
-          <a href="#beer">nos bières</a>
-          <a href="#history">notre histoire</a>
-          <a href="#shop">shop</a>
-          <a href="#pdvente">points de vente</a>
-          <a href="#contact">contact</a>
-        </nav>
-      </header>
+        <img
+          class="picto-login"
+          src="/src/img/pictologin.svg"
+          alt="picto login"
+        />
+        <div
+          class="language-picker js-language-picker"
+          data-trigger-class="li4-btn li4-btn--subtle js-tab-focus"
+        >
+          <form action="" class="language-picker__form">
+            <select name="language-picker-select" id="language-picker-select">
+              <option lang="de" value="deutsch">Deutsch</option>
+              <option lang="fr" value="english" selected>Français</option>
+              <option lang="en" value="francais">English</option>
+              <option lang="it" value="italiano">Italiano</option>
+            </select>
+          </form>
+        </div>
+      </div>
+      <img
+        class="images-logoheader"
+        src="/src/img/logoheader.svg"
+        alt="Logo Licorne"
+      />
+      <div class="slogan-header">
+        <h1>100% de saveurs, 0% d'alcool</h1>
+      </div>
+      <nav class="navigation">
+        <a href="#beer">nos bières</a>
+        <a href="#history">notre histoire</a>
+        <a href="#shop">shop</a>
+        <a href="#pdvente">points de vente</a>
+        <a href="#contact">contact</a>
+      </nav>
+    </header>
     <main>
       <div class="container">
-      <div class="images-picto">
-        <img
-          class="images-pictobio"
-          src="/src/img/pictobio.svg"
-          alt="picto bio"
-        />
-        <img
-          class="images-pictobiere"
-          src="/src/img/pictotono.svg"
-          alt="picto biere"
-        />
-        <img
-          class="images-pictobottles"
-          src="/src/img/pictobottles.svg"
-          alt="picto deux bouteilles"
-        />
-      </div>
+        <div class="images-picto">
+          <img
+            class="images-pictobio"
+            src="/src/img/pictobio.svg"
+            alt="picto bio"
+          />
+          <img
+            class="images-pictobiere"
+            src="/src/img/pictotono.svg"
+            alt="picto biere"
+          />
+          <img
+            class="images-pictobottles"
+            src="/src/img/pictobottles.svg"
+            alt="picto deux bouteilles"
+          />
+        </div>
       </div>
       <div class="container">
-      <div class="text-picto">
-        <h5>bio</h5>
-        <h5>fabrication artisanale</h5>
-        <h5>0% vol</h5>
-      </div>
+        <div class="text-picto">
+          <h5>bio</h5>
+          <h5>fabrication artisanale</h5>
+          <h5>0% vol</h5>
+        </div>
       </div>
       <h2 id="beer">nos bières</h2>
       <div class="container">
-      <div class="row">
-        <div class="rectangle-yellow">
-          <div class="col-4">
-            <h1 class="title-blue">BLONDE</h1>
-            <h4 class="bouteille-verre">Bouteille en verre de 33cl</h4>
-            <p class="text-histoiredelabiere">Cette bière blonde lumineuse et rafraîchissante est parfaite pour celles et ceux qui cherchent un 
-              plaisir authentique sans les effets de l'alcool. Un voyage sensoriel doux et harmonieux, à savourer à tout moment.</p>
-          </div>
-          <div class="col-4 images-bouteillesnosbiere">
-            <img src="/src/img/licornebouteillebleu.svg" alt="image de biere licorne blonde"/>
-          </div>
-          <div class="col-4">
-            <div class="images-pourcent">
-              <img src="img/pourcentv2.svg" alt="logo pourcentage de licorne">
+        <div class="row">
+          <div class="rectangle-yellow">
+            <div class="col-4">
+              <div class="beer">
+                <h1 class="title-blue">BLONDE</h1>
+                <h4 class="bouteille-verre">Bouteille en verre de 33cl</h4>
+                <p class="text-histoiredelabiere">
+                  Cette bière blonde lumineuse et rafraîchissante est parfaite
+                  pour celles et ceux qui cherchent un plaisir authentique sans
+                  les effets de l'alcool. Un voyage sensoriel doux et
+                  harmonieux, à savourer à tout moment.
+                </p>
+              </div>
             </div>
-            <p>
-              <strong>Ingrédients</strong> : Eau, malt d'orge, colorant E150c, arôme naturel,
-              houblon.
-            </p>
-            <br>
-            <p><strong>Allergènes</strong> : Gluten</p>
-            <button class="button-buy">commander en ligne</button>
+            <div class="col-4 images-bouteillesnosbiere">
+              <img
+                src="/src/img/licornebouteillebleu.svg"
+                alt="image de biere licorne blonde"
+              />
+            </div>
+            <div class="col-4">
+              <div class="images-pourcent">
+                <img
+                  src="img/pourcentv2.svg"
+                  alt="logo pourcentage de licorne"
+                />
+              </div>
+              <p>
+                <strong>Ingrédients</strong> : Eau, malt d'orge, colorant E150c,
+                arôme naturel, houblon.
+              </p>
+              <br />
+              <p><strong>Allergènes</strong> : Gluten</p>
+              <button class="button-buy">commander en ligne</button>
+            </div>
           </div>
         </div>
-      </div>
       </div>
       <div class="container">
-      <div class="row">
-        <div class="rectangle-yellow">
-          <div class="col-4">
-            <h1 class="title-red">BRUNE</h1>
-            <h4 class="bouteille-verre">Bouteille en verre de 33cl</h4>
-            <p class="text-histoiredelabiere">Cette bière brune sans alcool est élaborée avec du malt torréfié d'orge et de blé, qui lui confère une richesse aromatique exceptionnelle offrant une expérience gustative équilibrée et satisfaisante.</p>
-          </div>
-          <div class="col-4 images-bouteillesnosbiere">
-            <img src="/src/img/licornebouteillerouge.svg" alt="image de biere licorne blonde"/>
-          </div>
-          <div class="col-4">
-            <div class="images-pourcent">
-              <img src="img/pourcentv2.svg" alt="logo pourcentage de licorne">
+        <div class="row">
+          <div class="rectangle-yellow">
+            <div class="col-4">
+              <h1 class="title-red">BRUNE</h1>
+              <h4 class="bouteille-verre">Bouteille en verre de 33cl</h4>
+              <p class="text-histoiredelabiere">
+                Cette bière brune sans alcool est élaborée avec du malt torréfié
+                d'orge et de blé, qui lui confère une richesse aromatique
+                exceptionnelle offrant une expérience gustative équilibrée et
+                satisfaisante.
+              </p>
             </div>
-            <p>
-              <strong>Ingrédients</strong> : Eau, malt d'orge, colorant E150c, arôme naturel,
-              houblon.
-            </p>
-            <br>
-            <p><strong>Allergènes</strong> : Gluten</p>
-            <button class="button-buy">commander en ligne</button>
+            <div class="col-4 images-bouteillesnosbiere">
+              <img
+                src="/src/img/licornebouteillerouge.svg"
+                alt="image de biere licorne blonde"
+              />
+            </div>
+            <div class="col-4">
+              <div class="images-pourcent">
+                <img
+                  src="img/pourcentv2.svg"
+                  alt="logo pourcentage de licorne"
+                />
+              </div>
+              <p>
+                <strong>Ingrédients</strong> : Eau, malt d'orge, colorant E150c,
+                arôme naturel, houblon.
+              </p>
+              <br />
+              <p><strong>Allergènes</strong> : Gluten</p>
+              <button class="button-buy">commander en ligne</button>
+            </div>
           </div>
         </div>
-      </div>
       </div>
       <div class="container">
-      <div class="row">
-        <div class="rectangle-yellow">
-          <div class="col-4">
-            <h1 class="title-green">IPA <span>SANS GLUTEN</span></h1>
-            <h4 class="bouteille-verre">Bouteille en verre de 33cl</h4>
-            <p class="text-histoiredelabiere">Cette IPA sans alcool offre une palette de saveurs rafraîchissantes. Des notes zestées d'agrumes, enrichies par le caractère épicé du malt de seigle et la fraîcheur herbacée de la coriandre, le tout sans gluten.</p>
-          </div>
-          <div class="col-4 images-bouteillesnosbiere">
-            <img src="/src/img/licornebouteilleverte.svg" alt="image de biere licorne blonde"/>
-          </div>
-          <div class="col-4">
-            <div class="images-pourcent">
-              <img src="img/pourcentv2.svg" alt="logo pourcentage de licorne">
+        <div class="row">
+          <div class="rectangle-yellow">
+            <div class="col-4">
+              <h1 class="title-green">IPA <span>SANS GLUTEN</span></h1>
+              <h4 class="bouteille-verre">Bouteille en verre de 33cl</h4>
+              <p class="text-histoiredelabiere">
+                Cette IPA sans alcool offre une palette de saveurs
+                rafraîchissantes. Des notes zestées d'agrumes, enrichies par le
+                caractère épicé du malt de seigle et la fraîcheur herbacée de la
+                coriandre, le tout sans gluten.
+              </p>
             </div>
-            <p>
-              <strong>Ingrédients</strong> : Eau, malt d'orge, colorant E150c, arôme naturel,
-              houblon.
-            </p>
-            <button class="button-buy">commander en ligne</button>
+            <div class="col-4 images-bouteillesnosbiere">
+              <img
+                src="/src/img/licorne-ipa-bottle.svg"
+                alt="image de biere licorne blonde"
+              />
+            </div>
+            <div class="col-4">
+              <div class="images-pourcent">
+                <img
+                  src="img/pourcentv2.svg"
+                  alt="logo pourcentage de licorne"
+                />
+              </div>
+              <p>
+                <strong>Ingrédients</strong> : Eau, malt d'orge, colorant E150c,
+                arôme naturel, houblon.
+              </p>
+              <button class="button-buy">commander en ligne</button>
+            </div>
           </div>
         </div>
-      </div>
       </div>
       <div class="histoire-bio">
-      <h2 id="history">notre histoire</h2>
-      <div class="container-bio">
-        <img src="img/licorneyellowbackground.svg" alt="image jaune de texture d'houblon">
-        <div class="container-text col-10">Chaque bière Licorne est le fruit d'un savoir-faire artisanal, fusionnant tradition et innovation pour créer des saveurs authentiques et raffinées.<br> En privilégiant des produits locaux certifiés bio, nous soutenons l'économie régionale 
-          Suisse<br> tout en misant sur des techniques de brassage traditionnelles et des méthodes modernes. Notre nouvelle brasserie créée par Sylvain Megroni se trouve à Estavayer-le-Lac dans une ancienne bâtisse médiévale.<br><br> Nous vous accueillons avec plaisir les samedis et dimanches pour des visites afin de vous transmettre notre amour pour la bière, vous partager le processus de fermentation et de mise en bouteille mais aussi pour découvrir ce magnifique lieu chargé d’histoire.
-          La visite sera suivie d’une dégustation de nos produits. Réservez une visite guidée par e-mail à l’adresse : <br><br><br> <a class="email-link" href="mailto:info@brasserielicorne.ch">info@brasserielicorne.ch</a></div>
-      </div>
+        <h2 id="history">notre histoire</h2>
+        <div class="container-bio">
+          <div class="col-12">
+            <p>
+              Chaque bière Licorne est le fruit d'un savoir-faire artisanal,
+              fusionnant tradition et innovation pour créer des saveurs
+              authentiques et raffinées.<br />
+              En privilégiant des produits locaux certifiés bio, nous soutenons
+              l'économie régionale Suisse<br />
+              tout en misant sur des techniques de brassage traditionnelles et
+              des méthodes modernes. Notre nouvelle brasserie créée par Sylvain
+              Megroni se trouve à Estavayer-le-Lac dans une ancienne bâtisse
+              médiévale.<br /><br />
+              Nous vous accueillons avec plaisir les samedis et dimanches pour
+              des visites afin de vous transmettre notre amour pour la bière,
+              vous partager le processus de fermentation et de mise en bouteille
+              mais aussi pour découvrir ce magnifique lieu chargé d’histoire. La
+              visite sera suivie d’une dégustation de nos produits. Réservez une
+              visite guidée par e-mail à l’adresse : <br /><br /><br />
+            </p>
+            <a class="email-link" href="mailto:info@brasserielicorne.ch"
+              >info@brasserielicorne.ch</a
+            >
+          </div>
+        </div>
       </div>
       <div class="section-shop">
         <h2 id="shop">shop</h2>
         <div class="container">
           <div class="row">
-              <div class="col-4">
-                <img class="images-bottleshop"
-                src="/src/img/blondeshop.svg"
-                alt="image shop bouteille blonde"
-                />
-                <p class="text-shop">BLONDE<br>1 x bouteille 33cl : CHF 4.60<br>1 x pack de 4 x 33cl : CHF 16.–</p>
-              </div>
-                <div class="col-4">
-                <img class="images-bottleshop"
-                src="/src/img/bruneshop.svg"
-                alt="image shop bouteille brune"
-                />
-                <p class="text-shop">BRUNE<br>1 x bouteille 33cl : CHF 4.60<br>1 x pack de 4 x 33cl : CHF 16.–</p>
+            <div class="col-4">
+              <div class="container-shop">
+                <div>
+                  <img
+                    class="images-bottleshop"
+                    src="/src/img/blondeshop.svg"
+                    alt="image shop bouteille blonde"
+                  />
+                  <p class="text-shop">
+                    BLONDE<br />1 x bouteille 33cl : CHF 4.60<br />1 x pack de 4
+                    x 33cl : CHF 16.–
+                  </p>
                 </div>
-                <div class="col-4">
-                <img class="images-bottleshop"
-                src="/src/img/ipashop.svg"
-                alt="image shop bouteille ipa"
-                />
-                <p class="text-shop">IPA (sans gluten)<br>1 x bouteille 33cl : CHF 4.60<br>1 x pack de 4 x 33cl : CHF 16.–</p>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="container-shop">
+                <div>
+                  <img
+                    class="images-bottleshop"
+                    src="/src/img/bruneshop.svg"
+                    alt="image shop bouteille brune"
+                  />
+                  <p class="text-shop">
+                    BRUNE<br />1 x bouteille 33cl : CHF 4.60<br />1 x pack de 4
+                    x 33cl : CHF 16.–
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="container-shop">
+                <div>
+                  <img
+                    class="images-bottleshop"
+                    src="/src/img/ipashop.svg"
+                    alt="image shop bouteille ipa"
+                  />
+                  <p class="text-shop">
+                    IPA (sans gluten)<br />1 x bouteille 33cl : CHF 4.60<br />1
+                    x pack de 4 x 33cl : CHF 16.–
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
           <div class="row">
-            <div class="col button-flex"><button class="button-buytwo">commander en ligne</button></div>
+            <div class="col button-flex">
+              <button class="button-buytwo">commander en ligne</button>
+            </div>
           </div>
         </div>
       </div>
       <div class="pdv">
         <h2 id="pdvente">points de vente</h2>
-        <img class="images-partenaires"
-        src="/src/img/pointsdevente.svg"
-        alt="images des points de vente"
+        <img
+          class="images-partenaires"
+          src="/src/img/pointsdevente.svg"
+          alt="images des points de vente"
         />
       </div>
-      <div class="contact">
-      </div>
+      <div class="contact"></div>
       <div class="container">
         <div class="row">
           <div class="col-4">
-            <a href="https://www.instagram.com/brasserie__licorne/" target="_blank">
-            <img class="socials-icons" src="./img/buttoninsta.svg" alt="logo instagram"
+            <a
+              href="https://www.instagram.com/brasserie__licorne/"
+              target="_blank"
+            >
+              <img
+                class="socials-icons"
+                src="./img/buttoninsta.svg"
+                alt="logo instagram"
             /></a>
-            <a href="https://www.instagram.com/brasserie__licorne/" target="_blank">
-            <img class="socials-icons" src="./img/buttontik.svg" alt="logo tiktok"
+            <a
+              href="https://www.instagram.com/brasserie__licorne/"
+              target="_blank"
+            >
+              <img
+                class="socials-icons"
+                src="./img/buttontik.svg"
+                alt="logo tiktok"
             /></a>
           </div>
           <div class="col-8">
-            <p class="text-newsletter">s'abonner à notre newsletter</p>
+            <p class="text-newsletter">s'inscrire à notre newsletter</p>
           </div>
         </div>
       </div>
@@ -219,28 +320,36 @@
       <div class="container">
         <div class="row">
           <div class="col-4">
-            <p class="text-pcontact">Brasserie Licorne<br>Sylvain Megroni<br>
-              Chemin du Lac 2<br>CH-1470 Estavayer-Le-Lac<br>+41 26 664 23 23
+            <p class="text-pcontact">
+              Brasserie Licorne<br />Sylvain Megroni<br />
+              Chemin du Lac 2<br />CH-1470 Estavayer-Le-Lac<br />+41 26 664 23
+              23<a class="text-mail" href="mailto:info@brasserielicorne.ch"
+                >info@brasserielicorne.ch</a
+              >
             </p>
-            <a class="text-mail" href="mailto:info@brasserielicorne.ch">info@brasserielicorne.ch</a>
-            <p class="text-politiqueetcondition"><br><br>Politique de confidentialité<br><br>Conditions générales de vente</p>
+            <p class="text-politiqueetcondition">
+              <br /><br />Politique de confidentialité<br /><br />Conditions
+              générales de vente
+            </p>
           </div>
           <div class="col-4"></div>
-          <div class="col-3">
-            <img class="images-mapsfooter"
-            src="/src/img/cartemaps.svg"
-            alt="image emplacement licorne maps"
+          <div class="col-4">
+            <img
+              class="images-mapsfooter"
+              src="/src/img/cartemaps.svg"
+              alt="image emplacement licorne maps"
             />
             <p class="text-googlemaps">Ouvrir dans Google Maps</p>
           </div>
         </div>
       </div>
       <div class="images-logofooter">
-      <img
-        class="images-logofooter"
-        src="/src/img/logofooter.svg"
-        alt="logo brasserie licorne"
-      />
+        <img
+          class="images-logofooter"
+          src="/src/img/logofooter.svg"
+          alt="logo brasserie licorne"
+        />
+      </div>
       <p class="text-copyright">© 2024 Licorne. Tous droits réservés</p>
     </footer>
     <script src="js/main.js" type="module"></script>

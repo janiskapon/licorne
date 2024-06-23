@@ -22,10 +22,8 @@
 }
 
 .images-logofooter {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  block-size: 40px;
+  margin: auto;
+  width: 260px;
 }
 
 .images-pourcent {
@@ -43,10 +41,14 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 50px;
+  margin-bottom: 160px;
 }
 
 .images-mapsfooter {
-  width: 70%;
+  width: 200%;
   height: auto;
+}
+
+.images-bottleshop {
+  width: 100%;
 }

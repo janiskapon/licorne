@@ -39,6 +39,10 @@ main {
   background-color: #0a0a0a;
 }
 
+header {
+  padding-top: 170px;
+}
+
 footer {
   background-color: #f1e60d;
 }
@@ -59,7 +63,7 @@ h2 {
   font-weight: normal;
   text-align: center;
   font-size: 60px;
-  padding-bottom: 40px;
+  padding: 160px 0 60px;
 }
 
 h4 {
@@ -93,15 +97,7 @@ video {
 
 nav {
   background-color: #f1e60d;
-}
-
-a,
-nav {
   font-size: 30px;
-  justify-content: space-between;
-  margin: 0 20 0 20px;
-  padding: 10 0 10 0px;
-  text-align: center;
   text-transform: uppercase;
 }
 
@@ -114,13 +110,14 @@ span {
 }
 
 footer {
-  padding-top: 30px;
   padding-bottom: 40px;
+  font-size: 24px;
 }
 
 footer h2 {
   color: #0a0a0a;
   text-align: center;
+  padding-top: 90px;
 }
 
 /* ====================================

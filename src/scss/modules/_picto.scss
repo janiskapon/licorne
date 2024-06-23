@@ -1,16 +1,6 @@
-.picto-panier {
+.picto {
   display: flex;
   justify-content: center;
-  width: 1.8%;
-  height: auto;
-  margin-top: 80px;
-}
-
-.picto-login {
-  display: flex;
-  justify-content: center;
-  width: 1.8%;
-  height: auto;
-  margin-top: 80px;
-  margin-left: 20px;
+  align-items: center;
+  gap: 40px;
 }
